@@ -1,0 +1,32 @@
+.ss-button {
+	display: inline-block;     
+    text-decoration: none; 
+    cursor: pointer;
+	box-sizing:	 border-box;
+	vertical-align: middle;
+	border-bottom: none !important;
+	font-size:18px;
+	padding:5px 20px;
+	border-width:1px;
+	border-radius: 3px;
+	border-style: solid;
+}
+.ss-button:before {
+	 font-family: "FontAwesome"; 
+	 font-size:18px;
+	 margin-right: 5px;	
+}
+.ss-facebook:before {
+	content: "\f09a";
+	color: #ffffff;
+}
+.ss-facebook{
+	
+	background:#3b5998;
+	color: #ffffff;
+	border-color: #ffffff;
+}
+.ss-facebook:hover {
+	background:#8b9dc3;
+	color: #ffffff;
+}
